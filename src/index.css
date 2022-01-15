@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#result{
+  display: flex;
+  justify-content: center;
+}
+.GamePane{
+  display: flex;
+  flex-wrap: wrap;
+}
+.GamePane3{
+  width: 320px;
+}
+.GamePane4{
+  width: 420px;
+}
+.GamePane5{
+  width: 520px;
+}
+.GamePane16{
+  width: 530px;
+}
+.Square{
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: justify;
+  display: flex;
+  cursor: pointer;
+}
+.Square div.history{
+  width: 30px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SquareTick{
+  background-color: brown;
+}
+.SquareTacker, .AI{
+  background-color: cyan;
+}
+.Square h1{
+  justify-content: center;
+}
